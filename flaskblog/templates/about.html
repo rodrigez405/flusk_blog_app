@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>About Flask Blog</h1>
+    <p>This is a Simple Blog Website crested Using Flask Framework. It has Dynamic content made using database 
+    sqlite.Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.
+
+    Applications that use the Flask framework include Pinterest and LinkedIn.
+    </p>
+    <h5>History</h5>
+    <p>Flask was created by Armin Ronacher of Pocoo, an international group of Python enthusiasts formed in 2004. According to Ronacher, the idea was originally an April Fool's joke that was popular enough to make into a serious application. The name is a play on the earlier Bottle framework.
+
+        When Ronacher and Georg Brandl created a bulletin board system written in Python in 2004, the Pocoo projects Werkzeug and Jinja were developed.
+        
+        In April 2016, the Pocoo team was disbanded and development of Flask and related libraries passed to the newly formed Pallets project.
+        
+        Flask has become popular among Python enthusiasts. As of October 2020, it has second most stars on GitHub among Python web-development frameworks, only slightly behind Django, and was voted the most popular web framework in the Python Developers Survey 2018</p>
+        <h5>Components :</h5>
+        <h6>Werkzeug</h6>
+        <p>Werkzeug (German for "tool") is a utility library for the Python programming language for Web Server Gateway Interface (WSGI) applications. Werkzeug can instantiate objects for request, response, and utility functions. It can be used as the basis for a custom software framework and supports Python 2.7 and 3.5 and later.</p>
+        <h6>Jinja</h6>
+        <p>Jinja, also by Ronacher, is a template engine for the Python programming language. Similar to the Django web framework, it handles templates in a sandbox.</p>
+        <h6>MarkupSafe</h6>
+        <p>MarkupSafe is a string handling library for the Python programming language. The eponymous MarkupSafe type extends the Python string type and marks its contents as "safe"; combining MarkupSafe with regular strings automatically escapes the unmarked strings, while avoiding double escaping of already marked strings.</p>
+        <h6>ItsDangerous</h6>
+        <p>ItsDangerous is a safe data serialization library for the Python programming language. It is used to store the session of a Flask application in a cookie without allowing users to tamper with the session contents.</p>
+        <h5>Features:</h5>
+        <pre>
+            1.Development server and debugger
+            2.Integrated support for unit testing
+            3.RESTful request dispatching
+            4.Uses Jinja templating           
+            5.Support for secure cookies (client side sessions)
+            6.100% WSGI 1.0 compliant
+            7.Unicode-based
+            8.Complete documentation
+            9.Google App Engine compatibility
+            10.Extensions available to extend functionality
+        </pre>
+{% endblock content %}
